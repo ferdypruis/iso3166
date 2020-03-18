@@ -8,6 +8,8 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
+	"text/template"
 )
 
 const url = "https://raw.githubusercontent.com/datasets/country-codes/master/data/country-codes.csv"
@@ -23,19 +25,6 @@ type tplCountry struct {
 }
 
 func main() {
-	countries := countryCodes()
-
-	data := map[string]interface{}{
-		"generator": "from CSV",
-		"countries": countries,
-	}
-
-	render(tpl, outfile)
-
-	log.Printf("iso3166: generated %d countries", len(countries))
-}
-
-func render(tpl, outfile string) {
 	// Parse template file
 	tmpl, err := template.ParseFiles(tpl)
 	if err != nil {
@@ -49,10 +38,19 @@ func render(tpl, outfile string) {
 	}
 	defer w.Close()
 
+	countries := countryCodes()
+
+	data := map[string]interface{}{
+		"generator": "from CSV",
+		"countries": countries,
+	}
+
 	// Render template into outfile
 	if err := tmpl.Execute(w, data); err != nil {
 		log.Fatalln(`iso3166: error rendering template:`, err)
 	}
+
+	log.Printf("iso3166: generated %d countries", len(countries))
 }
 
 func countryCodes() map[string]tplCountry {

@@ -3,7 +3,7 @@
 package iso3166
 
 const (
-	_   Country = iota
+	_  Country = iota
 {{- range .countries}}
 	{{.Alpha2}}         // {{.Name}}
 {{- end}}
