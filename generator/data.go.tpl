@@ -5,7 +5,7 @@ package iso3166
 const (
 	_  Country = iota
 {{- range .countries}}
-	{{.Alpha2}}         // {{.Name}}
+	{{.Alpha2}}         // {{.Name}} ({{.Alpha3}}/{{.Numeric}})
 {{- end}}
 )
 

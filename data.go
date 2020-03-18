@@ -4,255 +4,255 @@ package iso3166
 
 const (
 	_  Country = iota
-	AD         // Andorra
-	AE         // United Arab Emirates
-	AF         // Afghanistan
-	AG         // Antigua & Barbuda
-	AI         // Anguilla
-	AL         // Albania
-	AM         // Armenia
-	AO         // Angola
-	AQ         // Antarctica
-	AR         // Argentina
-	AS         // American Samoa
-	AT         // Austria
-	AU         // Australia
-	AW         // Aruba
-	AX         // Åland Islands
-	AZ         // Azerbaijan
-	BA         // Bosnia
-	BB         // Barbados
-	BD         // Bangladesh
-	BE         // Belgium
-	BF         // Burkina Faso
-	BG         // Bulgaria
-	BH         // Bahrain
-	BI         // Burundi
-	BJ         // Benin
-	BL         // St. Barthélemy
-	BM         // Bermuda
-	BN         // Brunei
-	BO         // Bolivia
-	BQ         // Caribbean Netherlands
-	BR         // Brazil
-	BS         // Bahamas
-	BT         // Bhutan
-	BV         // Bouvet Island
-	BW         // Botswana
-	BY         // Belarus
-	BZ         // Belize
-	CA         // Canada
-	CC         // Cocos (Keeling) Islands
-	CD         // Congo - Kinshasa
-	CF         // Central African Republic
-	CG         // Congo - Brazzaville
-	CH         // Switzerland
-	CI         // Côte d’Ivoire
-	CK         // Cook Islands
-	CL         // Chile
-	CM         // Cameroon
-	CN         // China
-	CO         // Colombia
-	CR         // Costa Rica
-	CU         // Cuba
-	CV         // Cape Verde
-	CW         // Curaçao
-	CX         // Christmas Island
-	CY         // Cyprus
-	CZ         // Czechia
-	DE         // Germany
-	DJ         // Djibouti
-	DK         // Denmark
-	DM         // Dominica
-	DO         // Dominican Republic
-	DZ         // Algeria
-	EC         // Ecuador
-	EE         // Estonia
-	EG         // Egypt
-	EH         // Western Sahara
-	ER         // Eritrea
-	ES         // Spain
-	ET         // Ethiopia
-	FI         // Finland
-	FJ         // Fiji
-	FK         // Falkland Islands
-	FM         // Micronesia
-	FO         // Faroe Islands
-	FR         // France
-	GA         // Gabon
-	GB         // UK
-	GD         // Grenada
-	GE         // Georgia
-	GF         // French Guiana
-	GG         // Guernsey
-	GH         // Ghana
-	GI         // Gibraltar
-	GL         // Greenland
-	GM         // Gambia
-	GN         // Guinea
-	GP         // Guadeloupe
-	GQ         // Equatorial Guinea
-	GR         // Greece
-	GS         // South Georgia & South Sandwich Islands
-	GT         // Guatemala
-	GU         // Guam
-	GW         // Guinea-Bissau
-	GY         // Guyana
-	HK         // Hong Kong
-	HM         // Heard & McDonald Islands
-	HN         // Honduras
-	HR         // Croatia
-	HT         // Haiti
-	HU         // Hungary
-	ID         // Indonesia
-	IE         // Ireland
-	IL         // Israel
-	IM         // Isle of Man
-	IN         // India
-	IO         // British Indian Ocean Territory
-	IQ         // Iraq
-	IR         // Iran
-	IS         // Iceland
-	IT         // Italy
-	JE         // Jersey
-	JM         // Jamaica
-	JO         // Jordan
-	JP         // Japan
-	KE         // Kenya
-	KG         // Kyrgyzstan
-	KH         // Cambodia
-	KI         // Kiribati
-	KM         // Comoros
-	KN         // St. Kitts & Nevis
-	KP         // North Korea
-	KR         // South Korea
-	KW         // Kuwait
-	KY         // Cayman Islands
-	KZ         // Kazakhstan
-	LA         // Laos
-	LB         // Lebanon
-	LC         // St. Lucia
-	LI         // Liechtenstein
-	LK         // Sri Lanka
-	LR         // Liberia
-	LS         // Lesotho
-	LT         // Lithuania
-	LU         // Luxembourg
-	LV         // Latvia
-	LY         // Libya
-	MA         // Morocco
-	MC         // Monaco
-	MD         // Moldova
-	ME         // Montenegro
-	MF         // St. Martin
-	MG         // Madagascar
-	MH         // Marshall Islands
-	MK         // North Macedonia
-	ML         // Mali
-	MM         // Myanmar
-	MN         // Mongolia
-	MO         // Macau
-	MP         // Northern Mariana Islands
-	MQ         // Martinique
-	MR         // Mauritania
-	MS         // Montserrat
-	MT         // Malta
-	MU         // Mauritius
-	MV         // Maldives
-	MW         // Malawi
-	MX         // Mexico
-	MY         // Malaysia
-	MZ         // Mozambique
-	NA         // Namibia
-	NC         // New Caledonia
-	NE         // Niger
-	NF         // Norfolk Island
-	NG         // Nigeria
-	NI         // Nicaragua
-	NL         // Netherlands
-	NO         // Norway
-	NP         // Nepal
-	NR         // Nauru
-	NU         // Niue
-	NZ         // New Zealand
-	OM         // Oman
-	PA         // Panama
-	PE         // Peru
-	PF         // French Polynesia
-	PG         // Papua New Guinea
-	PH         // Philippines
-	PK         // Pakistan
-	PL         // Poland
-	PM         // St. Pierre & Miquelon
-	PN         // Pitcairn Islands
-	PR         // Puerto Rico
-	PS         // Palestine
-	PT         // Portugal
-	PW         // Palau
-	PY         // Paraguay
-	QA         // Qatar
-	RE         // Réunion
-	RO         // Romania
-	RS         // Serbia
-	RU         // Russia
-	RW         // Rwanda
-	SA         // Saudi Arabia
-	SB         // Solomon Islands
-	SC         // Seychelles
-	SD         // Sudan
-	SE         // Sweden
-	SG         // Singapore
-	SH         // St. Helena
-	SI         // Slovenia
-	SJ         // Svalbard & Jan Mayen
-	SK         // Slovakia
-	SL         // Sierra Leone
-	SM         // San Marino
-	SN         // Senegal
-	SO         // Somalia
-	SR         // Suriname
-	SS         // South Sudan
-	ST         // São Tomé & Príncipe
-	SV         // El Salvador
-	SX         // Sint Maarten
-	SY         // Syria
-	SZ         // Eswatini
-	TC         // Turks & Caicos Islands
-	TD         // Chad
-	TF         // French Southern Territories
-	TG         // Togo
-	TH         // Thailand
-	TJ         // Tajikistan
-	TK         // Tokelau
-	TL         // Timor-Leste
-	TM         // Turkmenistan
-	TN         // Tunisia
-	TO         // Tonga
-	TR         // Turkey
-	TT         // Trinidad & Tobago
-	TV         // Tuvalu
-	TW         // Taiwan
-	TZ         // Tanzania
-	UA         // Ukraine
-	UG         // Uganda
-	UM         // U.S. Outlying Islands
-	US         // US
-	UY         // Uruguay
-	UZ         // Uzbekistan
-	VA         // Vatican City
-	VC         // St. Vincent & Grenadines
-	VE         // Venezuela
-	VG         // British Virgin Islands
-	VI         // U.S. Virgin Islands
-	VN         // Vietnam
-	VU         // Vanuatu
-	WF         // Wallis & Futuna
-	WS         // Samoa
-	YE         // Yemen
-	YT         // Mayotte
-	ZA         // South Africa
-	ZM         // Zambia
-	ZW         // Zimbabwe
+	AD         // Andorra (AND/020)
+	AE         // United Arab Emirates (ARE/784)
+	AF         // Afghanistan (AFG/004)
+	AG         // Antigua & Barbuda (ATG/028)
+	AI         // Anguilla (AIA/660)
+	AL         // Albania (ALB/008)
+	AM         // Armenia (ARM/051)
+	AO         // Angola (AGO/024)
+	AQ         // Antarctica (ATA/010)
+	AR         // Argentina (ARG/032)
+	AS         // American Samoa (ASM/016)
+	AT         // Austria (AUT/040)
+	AU         // Australia (AUS/036)
+	AW         // Aruba (ABW/533)
+	AX         // Åland Islands (ALA/248)
+	AZ         // Azerbaijan (AZE/031)
+	BA         // Bosnia (BIH/070)
+	BB         // Barbados (BRB/052)
+	BD         // Bangladesh (BGD/050)
+	BE         // Belgium (BEL/056)
+	BF         // Burkina Faso (BFA/854)
+	BG         // Bulgaria (BGR/100)
+	BH         // Bahrain (BHR/048)
+	BI         // Burundi (BDI/108)
+	BJ         // Benin (BEN/204)
+	BL         // St. Barthélemy (BLM/652)
+	BM         // Bermuda (BMU/060)
+	BN         // Brunei (BRN/096)
+	BO         // Bolivia (BOL/068)
+	BQ         // Caribbean Netherlands (BES/535)
+	BR         // Brazil (BRA/076)
+	BS         // Bahamas (BHS/044)
+	BT         // Bhutan (BTN/064)
+	BV         // Bouvet Island (BVT/074)
+	BW         // Botswana (BWA/072)
+	BY         // Belarus (BLR/112)
+	BZ         // Belize (BLZ/084)
+	CA         // Canada (CAN/124)
+	CC         // Cocos (Keeling) Islands (CCK/166)
+	CD         // Congo - Kinshasa (COD/180)
+	CF         // Central African Republic (CAF/140)
+	CG         // Congo - Brazzaville (COG/178)
+	CH         // Switzerland (CHE/756)
+	CI         // Côte d’Ivoire (CIV/384)
+	CK         // Cook Islands (COK/184)
+	CL         // Chile (CHL/152)
+	CM         // Cameroon (CMR/120)
+	CN         // China (CHN/156)
+	CO         // Colombia (COL/170)
+	CR         // Costa Rica (CRI/188)
+	CU         // Cuba (CUB/192)
+	CV         // Cape Verde (CPV/132)
+	CW         // Curaçao (CUW/531)
+	CX         // Christmas Island (CXR/162)
+	CY         // Cyprus (CYP/196)
+	CZ         // Czechia (CZE/203)
+	DE         // Germany (DEU/276)
+	DJ         // Djibouti (DJI/262)
+	DK         // Denmark (DNK/208)
+	DM         // Dominica (DMA/212)
+	DO         // Dominican Republic (DOM/214)
+	DZ         // Algeria (DZA/012)
+	EC         // Ecuador (ECU/218)
+	EE         // Estonia (EST/233)
+	EG         // Egypt (EGY/818)
+	EH         // Western Sahara (ESH/732)
+	ER         // Eritrea (ERI/232)
+	ES         // Spain (ESP/724)
+	ET         // Ethiopia (ETH/231)
+	FI         // Finland (FIN/246)
+	FJ         // Fiji (FJI/242)
+	FK         // Falkland Islands (FLK/238)
+	FM         // Micronesia (FSM/583)
+	FO         // Faroe Islands (FRO/234)
+	FR         // France (FRA/250)
+	GA         // Gabon (GAB/266)
+	GB         // UK (GBR/826)
+	GD         // Grenada (GRD/308)
+	GE         // Georgia (GEO/268)
+	GF         // French Guiana (GUF/254)
+	GG         // Guernsey (GGY/831)
+	GH         // Ghana (GHA/288)
+	GI         // Gibraltar (GIB/292)
+	GL         // Greenland (GRL/304)
+	GM         // Gambia (GMB/270)
+	GN         // Guinea (GIN/324)
+	GP         // Guadeloupe (GLP/312)
+	GQ         // Equatorial Guinea (GNQ/226)
+	GR         // Greece (GRC/300)
+	GS         // South Georgia & South Sandwich Islands (SGS/239)
+	GT         // Guatemala (GTM/320)
+	GU         // Guam (GUM/316)
+	GW         // Guinea-Bissau (GNB/624)
+	GY         // Guyana (GUY/328)
+	HK         // Hong Kong (HKG/344)
+	HM         // Heard & McDonald Islands (HMD/334)
+	HN         // Honduras (HND/340)
+	HR         // Croatia (HRV/191)
+	HT         // Haiti (HTI/332)
+	HU         // Hungary (HUN/348)
+	ID         // Indonesia (IDN/360)
+	IE         // Ireland (IRL/372)
+	IL         // Israel (ISR/376)
+	IM         // Isle of Man (IMN/833)
+	IN         // India (IND/356)
+	IO         // British Indian Ocean Territory (IOT/086)
+	IQ         // Iraq (IRQ/368)
+	IR         // Iran (IRN/364)
+	IS         // Iceland (ISL/352)
+	IT         // Italy (ITA/380)
+	JE         // Jersey (JEY/832)
+	JM         // Jamaica (JAM/388)
+	JO         // Jordan (JOR/400)
+	JP         // Japan (JPN/392)
+	KE         // Kenya (KEN/404)
+	KG         // Kyrgyzstan (KGZ/417)
+	KH         // Cambodia (KHM/116)
+	KI         // Kiribati (KIR/296)
+	KM         // Comoros (COM/174)
+	KN         // St. Kitts & Nevis (KNA/659)
+	KP         // North Korea (PRK/408)
+	KR         // South Korea (KOR/410)
+	KW         // Kuwait (KWT/414)
+	KY         // Cayman Islands (CYM/136)
+	KZ         // Kazakhstan (KAZ/398)
+	LA         // Laos (LAO/418)
+	LB         // Lebanon (LBN/422)
+	LC         // St. Lucia (LCA/662)
+	LI         // Liechtenstein (LIE/438)
+	LK         // Sri Lanka (LKA/144)
+	LR         // Liberia (LBR/430)
+	LS         // Lesotho (LSO/426)
+	LT         // Lithuania (LTU/440)
+	LU         // Luxembourg (LUX/442)
+	LV         // Latvia (LVA/428)
+	LY         // Libya (LBY/434)
+	MA         // Morocco (MAR/504)
+	MC         // Monaco (MCO/492)
+	MD         // Moldova (MDA/498)
+	ME         // Montenegro (MNE/499)
+	MF         // St. Martin (MAF/663)
+	MG         // Madagascar (MDG/450)
+	MH         // Marshall Islands (MHL/584)
+	MK         // North Macedonia (MKD/807)
+	ML         // Mali (MLI/466)
+	MM         // Myanmar (MMR/104)
+	MN         // Mongolia (MNG/496)
+	MO         // Macau (MAC/446)
+	MP         // Northern Mariana Islands (MNP/580)
+	MQ         // Martinique (MTQ/474)
+	MR         // Mauritania (MRT/478)
+	MS         // Montserrat (MSR/500)
+	MT         // Malta (MLT/470)
+	MU         // Mauritius (MUS/480)
+	MV         // Maldives (MDV/462)
+	MW         // Malawi (MWI/454)
+	MX         // Mexico (MEX/484)
+	MY         // Malaysia (MYS/458)
+	MZ         // Mozambique (MOZ/508)
+	NA         // Namibia (NAM/516)
+	NC         // New Caledonia (NCL/540)
+	NE         // Niger (NER/562)
+	NF         // Norfolk Island (NFK/574)
+	NG         // Nigeria (NGA/566)
+	NI         // Nicaragua (NIC/558)
+	NL         // Netherlands (NLD/528)
+	NO         // Norway (NOR/578)
+	NP         // Nepal (NPL/524)
+	NR         // Nauru (NRU/520)
+	NU         // Niue (NIU/570)
+	NZ         // New Zealand (NZL/554)
+	OM         // Oman (OMN/512)
+	PA         // Panama (PAN/591)
+	PE         // Peru (PER/604)
+	PF         // French Polynesia (PYF/258)
+	PG         // Papua New Guinea (PNG/598)
+	PH         // Philippines (PHL/608)
+	PK         // Pakistan (PAK/586)
+	PL         // Poland (POL/616)
+	PM         // St. Pierre & Miquelon (SPM/666)
+	PN         // Pitcairn Islands (PCN/612)
+	PR         // Puerto Rico (PRI/630)
+	PS         // Palestine (PSE/275)
+	PT         // Portugal (PRT/620)
+	PW         // Palau (PLW/585)
+	PY         // Paraguay (PRY/600)
+	QA         // Qatar (QAT/634)
+	RE         // Réunion (REU/638)
+	RO         // Romania (ROU/642)
+	RS         // Serbia (SRB/688)
+	RU         // Russia (RUS/643)
+	RW         // Rwanda (RWA/646)
+	SA         // Saudi Arabia (SAU/682)
+	SB         // Solomon Islands (SLB/090)
+	SC         // Seychelles (SYC/690)
+	SD         // Sudan (SDN/729)
+	SE         // Sweden (SWE/752)
+	SG         // Singapore (SGP/702)
+	SH         // St. Helena (SHN/654)
+	SI         // Slovenia (SVN/705)
+	SJ         // Svalbard & Jan Mayen (SJM/744)
+	SK         // Slovakia (SVK/703)
+	SL         // Sierra Leone (SLE/694)
+	SM         // San Marino (SMR/674)
+	SN         // Senegal (SEN/686)
+	SO         // Somalia (SOM/706)
+	SR         // Suriname (SUR/740)
+	SS         // South Sudan (SSD/728)
+	ST         // São Tomé & Príncipe (STP/678)
+	SV         // El Salvador (SLV/222)
+	SX         // Sint Maarten (SXM/534)
+	SY         // Syria (SYR/760)
+	SZ         // Eswatini (SWZ/748)
+	TC         // Turks & Caicos Islands (TCA/796)
+	TD         // Chad (TCD/148)
+	TF         // French Southern Territories (ATF/260)
+	TG         // Togo (TGO/768)
+	TH         // Thailand (THA/764)
+	TJ         // Tajikistan (TJK/762)
+	TK         // Tokelau (TKL/772)
+	TL         // Timor-Leste (TLS/626)
+	TM         // Turkmenistan (TKM/795)
+	TN         // Tunisia (TUN/788)
+	TO         // Tonga (TON/776)
+	TR         // Turkey (TUR/792)
+	TT         // Trinidad & Tobago (TTO/780)
+	TV         // Tuvalu (TUV/798)
+	TW         // Taiwan (TWN/158)
+	TZ         // Tanzania (TZA/834)
+	UA         // Ukraine (UKR/804)
+	UG         // Uganda (UGA/800)
+	UM         // U.S. Outlying Islands (UMI/581)
+	US         // US (USA/840)
+	UY         // Uruguay (URY/858)
+	UZ         // Uzbekistan (UZB/860)
+	VA         // Vatican City (VAT/336)
+	VC         // St. Vincent & Grenadines (VCT/670)
+	VE         // Venezuela (VEN/862)
+	VG         // British Virgin Islands (VGB/092)
+	VI         // U.S. Virgin Islands (VIR/850)
+	VN         // Vietnam (VNM/704)
+	VU         // Vanuatu (VUT/548)
+	WF         // Wallis & Futuna (WLF/876)
+	WS         // Samoa (WSM/882)
+	YE         // Yemen (YEM/887)
+	YT         // Mayotte (MYT/175)
+	ZA         // South Africa (ZAF/710)
+	ZM         // Zambia (ZMB/894)
+	ZW         // Zimbabwe (ZWE/716)
 )
 
 var countries = [...]struct {
