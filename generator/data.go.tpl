@@ -23,3 +23,21 @@ var countries = [...]struct {
 	{{.Alpha2}}: {alpha2: "{{.Alpha2}}", alpha3: "{{.Alpha3}}", numeric: "{{.Numeric}}", name: {{.Name | printf "%q"}}},
 {{- end}}
 }
+
+var fromAlpha2 = map[string]Country{
+{{- range .countries}}
+    "{{.Alpha2}}": {{.Alpha2}},
+{{- end}}
+}
+
+var fromAlpha3 = map[string]Country{
+{{- range .countries}}
+    "{{.Alpha3}}": {{.Alpha2}},
+{{- end}}
+}
+
+var fromNumeric = map[string]Country{
+{{- range .countries}}
+    "{{.Numeric}}": {{.Alpha2}},
+{{- end}}
+}

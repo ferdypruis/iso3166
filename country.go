@@ -19,10 +19,8 @@ func (c Country) Name() string { return countries[c].name }
 // FromAlpha2 returns Country for the two-letter alpha2 code.
 // Or an error if it does not exist.
 func FromAlpha2(alpha2 string) (Country, error) {
-	for c, country := range countries {
-		if country.alpha2 == alpha2 {
-			return Country(c), nil
-		}
+	if c, ok := fromAlpha2[alpha2]; ok {
+		return c, nil
 	}
 	return Country(0), Error("no country exists with alpha2-code " + alpha2)
 }
@@ -30,10 +28,8 @@ func FromAlpha2(alpha2 string) (Country, error) {
 // FromAlpha3 returns Country for the three-letter alpha3 code.
 // Or an error if it does not exist.
 func FromAlpha3(alpha3 string) (Country, error) {
-	for c, country := range countries {
-		if country.alpha3 == alpha3 {
-			return Country(c), nil
-		}
+	if c, ok := fromAlpha3[alpha3]; ok {
+		return c, nil
 	}
 	return Country(0), Error("no country exists with alpha3-code " + alpha3)
 }
@@ -41,10 +37,8 @@ func FromAlpha3(alpha3 string) (Country, error) {
 // FromNumeric returns Country for the three-digit numeric code.
 // Or an error if it does not exist.
 func FromNumeric(numeric string) (Country, error) {
-	for c, country := range countries {
-		if country.numeric == numeric {
-			return Country(c), nil
-		}
+	if c, ok := fromNumeric[numeric]; ok {
+		return c, nil
 	}
 	return Country(0), Error("no country exists with numeric-code " + numeric)
 }
