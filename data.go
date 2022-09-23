@@ -489,7 +489,7 @@ var countries = [...]struct {
 	TM: {alpha2: "TM", alpha3: "TKM", numeric: "795", name: "Turkmenistan"},
 	TN: {alpha2: "TN", alpha3: "TUN", numeric: "788", name: "Tunisia"},
 	TO: {alpha2: "TO", alpha3: "TON", numeric: "776", name: "Tonga"},
-	TR: {alpha2: "TR", alpha3: "TUR", numeric: "792", name: "Turkey"},
+	TR: {alpha2: "TR", alpha3: "TUR", numeric: "792", name: "Türkiye"},
 	TT: {alpha2: "TT", alpha3: "TTO", numeric: "780", name: "Trinidad & Tobago"},
 	TV: {alpha2: "TV", alpha3: "TUV", numeric: "798", name: "Tuvalu"},
 	TW: {alpha2: "TW", alpha3: "TWN", numeric: "158", name: "Taiwan"},
