@@ -82,6 +82,24 @@ func TestFromNumericError(t *testing.T) {
 	}
 }
 
+func TestFromName(t *testing.T) {
+	want := iso3166.UA
+	got, err := iso3166.FromName("Ukraine")
+	if err != nil {
+		t.Errorf("FromName() error = %v, wantErr nil", err)
+	}
+	if got != want {
+		t.Errorf("FromName() got = %v, want %v", got, want)
+	}
+}
+
+func TestFromNameError(t *testing.T) {
+	_, err := iso3166.FromName("No Name")
+	if _, ok := err.(iso3166.Error); !ok {
+		t.Fatalf("FromName() error %T, want iso4217.Error", err)
+	}
+}
+
 func TestMust(t *testing.T) {
 	want := iso3166.FM
 	got := iso3166.Must(want, nil)
@@ -140,6 +158,15 @@ func ExampleFromNumeric() {
 
 	// Output:
 	// The three-letter code for St. Pierre & Miquelon is SPM
+}
+
+func ExampleFromName() {
+	name := "Ukraine"
+	country, _ := iso3166.FromName(name) // Ignoring error for simplicity
+	fmt.Println("The three-letter code for", country.Name(), "is", country.Alpha3())
+
+	// Output:
+	// The three-letter code for Ukraine is UKR
 }
 
 func ExampleMust() {

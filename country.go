@@ -43,6 +43,15 @@ func FromNumeric(numeric string) (Country, error) {
 	return Country(0), Error("no country exists with numeric-code " + numeric)
 }
 
+// FromName returns Country for the name.
+// Or an error if it does not exist.
+func FromName(name string) (Country, error) {
+	if c, ok := fromName[name]; ok {
+		return c, nil
+	}
+	return Country(0), Error("no country exists with name " + name)
+}
+
 // Must panics if err is non-nil and otherwise returns c.
 // Could be used to return a single value from FromAlpha2/FromAlpha3/FromNumeric.
 func Must(c Country, err error) Country {

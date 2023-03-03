@@ -41,3 +41,9 @@ var fromNumeric = map[string]Country{
     "{{.Numeric}}": {{.Alpha2}},
 {{- end}}
 }
+
+var fromName = map[string]Country{
+{{- range .countries}}
+    "{{.Name}}": {{.Alpha2}},
+{{- end}}
+}
